@@ -59,3 +59,5 @@ fn main() {
     // Verify that the decryption is correct 
     assert_eq!(message, decrypted_message, "Decryption failed !");
 }
+
+/// This code will work for variable-length one-time pad too ///
